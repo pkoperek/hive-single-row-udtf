@@ -12,6 +12,6 @@ Usage:
 
 ```sql
 ADD JAR hive-single-row-udtf-1.0-SNAPSHOT.jar;
-CREATE TEMPORARY FUNCTION singlerow AS 'com.github.pkoperek.udf.dual.SingleRowUDTF';
+CREATE TEMPORARY FUNCTION singlerow AS 'com.github.pkoperek.udf.singlerow.SingleRowUDTF';
 
 ```
