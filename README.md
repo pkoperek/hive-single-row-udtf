@@ -17,7 +17,7 @@ CREATE TABLE DUAL (DUMMY STRING);
 INSERT OVERWRITE TABLE DUAL SELECT SINGLEROW(NULL) FROM DUAL;
 ```
 
-**Note: null parameter is actually required - otherwise an NPE is thrown **
+**Note: null parameter is actually required - otherwise an NPE is thrown**
 
 ```
 hive> select singlerow() from dual;
