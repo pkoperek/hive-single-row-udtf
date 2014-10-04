@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.pkoperek</groupId>
-    <artifactId>hive-dual-udtf</artifactId>
+    <artifactId>hive-single-row-udtf</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>hive-dual-udtf</name>
+    <name>hive-single-row-udtf</name>
     <url>http://maven.apache.org</url>
 
     <properties>
