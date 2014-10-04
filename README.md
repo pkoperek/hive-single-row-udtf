@@ -1,7 +1,7 @@
 hive-single-row-udtf
-==============
+====================
 
-UDTF for [hive]() which generates always only a single row. Can be used to create a single row DUAL-like table.
+UDTF for [hive](https://hive.apache.org/) which generates always only a single row. Can be used to create a single row DUAL-like table.
 
 Usage:
 ======
